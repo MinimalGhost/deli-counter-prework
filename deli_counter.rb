@@ -3,6 +3,7 @@ def line(katz_deli)
     katz_deli.each.with_index do |name, index|
       formatLine.push("#{index}. #{name} ")
     end
+    print "The line is currently: #{formatLine.join}"
   else
     puts "The line is currently empty."
   end
